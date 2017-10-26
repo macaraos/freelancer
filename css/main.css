@@ -1,3 +1,394 @@
-/*
- * Estilos de tu proyecto
- */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/*Encabezado*/
+.menu{
+	background-color: #2C3E50;
+	position: relative;
+  	color: #fff;
+  	text-align: center;
+  	padding: 20px;
+  	width: 1258px;
+  	height: 70px;
+  	margin-left: 0px;
+  	top: 0px;
+}
+ul{
+	text-align: center;
+}
+li {
+	margin-bottom: center;
+  	float: left;
+  	padding: 10px;
+  	list-style: none;
+  	position: relative;
+}
+.m1{
+ 	
+ 	left: 60px;
+ 	font-weight: bold;
+ 	font-size: 22px;
+ 	top: 6px;
+}
+.m2,.m3,.m4{
+ 	left: 531px;
+ 	bottom: 0px;
+ 	font-weight: bold;
+ 	font-size: 17px;
+ 	top: 14px
+}
+.m2:hover{
+ 	color: #19B090;
+}
+.m3:hover{
+ 	color: #19B090;
+}
+.m4:hover{
+ 	color: #19B090;
+}
+/*Primera seccion*/
+.menu2{
+	background-color: #18BC9C;
+	color: #fff;
+	margin-top: 0px;
+	width: 1178px;
+  	height: 550px;
+  	text-align: center;
+  	padding: 60px;
+  	margin-left: 0px;
+}
+.m5{
+	right: 200px;
+	position: relative;
+	font-size: 50px;
+	padding-left: 300px;
+	font-weight: 900px;
+	text-align: center;
+	padding-left: 400px;
+	top: 300px;
+}
+.profile1{
+	width: 250px;
+	height: auto;
+	z-index: 1000;
+	top: -350px;
+	left: 260px;
+	position: relative;
+}
+.star{
+	color:#fff;
+	position: relative;
+	font-size: 33px;
+	top: -245px;
+	left: 365px;
+	z-index: 1000;
+	width: 50px;
+	height: auto;
+}
+.raya1{
+	background-color: #fff;
+	position: relative; 
+	width: 98px; 
+	height: 5px; 
+	bottom: 267px; 
+	left: 268px;
+}
+.raya2{
+	background-color: #fff;
+	position: relative;
+	width: 98px;
+	height: 5px;
+	bottom: 272px;
+	left: 412px;
+}
+.opciones{
+	font-family: 'Lato', sans-serif;
+	bottom: 237px;
+	position: relative;
+	color: #fff;
+	font-size: 28px;
+}
+/*Segunda seccion*/
+.menu3{
+	background-color: #fff;
+	color: #212529;
+	margin-top: 0px;
+	width: 1178px;
+  	height: 750px;
+  	text-align: center;
+  	padding: 60px;
+  	margin-left: 0px;
+}
+.m6{
+	font-size: 32px;
+	padding-top:40px;
+}
+.star2{
+	color: #2C3E50;
+	position: relative;
+	font-size: 33px;
+	top: 8px;
+	left: 564px;
+	z-index: 1000;
+	width: 50px;
+	height: auto;
+}
+.raya3{
+	background-color: #2C3E50;
+	position: relative; 
+	width: 98px; 
+	height: 5px; 
+	bottom:13px; 
+	left: 469px;
+}
+.raya4{
+	background-color: #2C3E50;
+	position: relative;
+	width: 98px;
+	height: 5px;
+	bottom: 18px;
+	left: 611px;
+}
+/*Imagenes principales*/
+div.pic{
+    width: 350px;
+    height: auto;
+    float: left;
+    margin: 10px;
+    padding: 2px;
+    margin-left: 20px;
+}
+div.pic img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    min-width: 300px;
+    max-height: 100%;
+    position: relative;
+}
+/*Tercera seccion*/
+.menu4{
+	background-color: #18BC9C;
+	color: #fff;
+	margin-top: 0px;
+	width: 1178px;
+  	height: 450px;
+  	text-align: center;
+  	padding: 60px;
+  	margin-left: 0px;
+}
+.m7{
+	font-size: 32px;
+	padding-top:40px;
+}
+.star3{
+	color: #fff;
+	position: relative;
+	font-size: 33px;
+	top: 8px;
+	left: 565px;
+	z-index: 1000;
+	width: 50px;
+	height: auto;
+}
+.raya5{
+	background-color: #fff;
+	position: relative; 
+	width: 98px; 
+	height: 5px; 
+	bottom: 13px; 
+	left: 470px;
+}
+.raya6{
+	background-color: #fff;
+	position: relative; 
+	width: 98px; 
+	height: 5px; 
+	bottom: 18px; 
+	left: 613px;
+	line-height: 30px;
+}
+/*Primera columna*/
+.text1{
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	font-size: 21px;
+	padding-left: 220px;
+	padding-right: 180px;
+	padding-top: 30px;
+	line-height: 30px;
+}
+/*segunda columna*/
+.text2{
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	font-size: 21px;
+	padding-right: 250px;
+	padding-left: 210px;
+}
+.download{
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	bottom: 0px;
+	right: 100px;
+	top: 23px;
+}
+.m8{
+	position: relative;
+	font-family: 'Lato', sans-serif; 
+	font-size: 21px;
+	padding-bottom: -90px;
+	top: 0px;
+	bottom: 0px;
+}
+/*Cuarta seccion*/
+.menu5{
+	background-color: #fff;
+	color: #212529;
+	margin-top: 0px;
+	width: 1178px;
+  	height: 900px;
+  	text-align: center;
+  	padding: 60px;
+  	margin-left: 0px;
+}
+.m9{
+	font-size: 32px;
+	padding-top:40px;
+}
+.star4{
+	color: #2C3E50;
+	position: relative;
+	font-size: 33px;
+	top: 8px;
+	left: 564px;
+	z-index: 1000;
+	width: 50px;
+	height: auto;
+}
+.raya7{
+	background-color: #2C3E50;
+	position: relative; 
+	width: 98px; 
+	height: 5px; 
+	bottom:13px; 
+	left: 469px;
+}
+.raya8{
+	background-color: #2C3E50;
+	position: relative;
+	width: 98px;
+	height: 5px;
+	bottom: 18px;
+	left: 611px;
+}
+/*Formulario*/
+.datos{
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	color: #868E96;
+	font-size: 23px;
+	padding-top: 30px;
+	padding-left: 230px;
+}
+.name{
+	padding-bottom: 35px;
+}
+.mail{
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.phone{
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.message{
+	padding-top: 35px;
+	padding-bottom: 250px;
+}
+.enviar{
+	position: relative;
+	font-size: 21px;
+	font-family: 'Lato', sans-serif;
+	background-color: #18BC9C;
+	border-radius: 4px;
+	width: 80px;
+	height: 40px;
+	color: #fff;
+	left: 226px;
+	top: 20px;
+	padding-top: 10px;
+}
+/*Quinta seccion*/
+.menu6{
+	font-family: 'Lato', sans-serif;
+	background-color: #2C3E50;
+	color: #fff;
+	margin-top: 0px;
+	width: 1178px;
+  	height: 230px;
+  	position: relative;
+  	padding: 60px;
+  	margin-left: 0px;
+}
+.loc{
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	bottom: 24px;
+	z-index: 1000;
+	font-weight: bold;
+	font-size: 28px;
+	padding-left: 133px;
+}
+.web{
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	bottom: 24px;
+	font-weight: bold;
+	font-size: 28px;
+	padding-left: 160px;
+}
+.af{
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	bottom: 25px;
+	font-weight: bold;
+	font-size: 28px;
+	padding-left: 87px;
+}
+/*Iconos finales*/
+.e1{
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	font-size: 20px;
+	top:-10px;
+	padding-right: 850px;
+	padding-left: 90px;
+}
+.e7{
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	font-size: 20px;
+	top: -120px;
+	padding-right:10px;
+	padding-left: 776px;
+}
+.icons{
+	position: relative;
+	font-size: 20px;
+	padding-left: 490px;
+	top:-54px;
+}
+.fin{
+	position: relative;
+	padding-left: 470px;
+	bottom: 20px;
+}
+a{
+	color: #18bc9c;
+	text-decoration: none;
+}
