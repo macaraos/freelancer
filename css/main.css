@@ -231,19 +231,12 @@ div.pic img {
 	padding-left: 210px;
 }
 .download{
-	font-family: 'Lato', sans-serif;
 	position: relative;
-	bottom: 0px;
-	right: 100px;
-	top: 23px;
-}
-.m8{
-	position: relative;
-	font-family: 'Lato', sans-serif; 
-	font-size: 21px;
-	padding-bottom: -90px;
-	top: 0px;
-	bottom: 0px;
+	border: 2px solid;
+	border-radius: 7px;
+	padding: 10px;
+	display: inline-block;
+	margin: 10px;
 }
 /*Cuarta seccion*/
 .menu5{
@@ -330,7 +323,7 @@ div.pic img {
 	color: #fff;
 	margin-top: 0px;
 	width: 1178px;
-  	height: 230px;
+  	height: 330px;
   	position: relative;
   	padding: 60px;
   	margin-left: 0px;
@@ -379,9 +372,49 @@ div.pic img {
 }
 .icons{
 	position: relative;
-	font-size: 20px;
-	padding-left: 490px;
-	top:-54px;
+	z-index: 1000;
+	padding: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+	display: inline-block;
+	color: #fff;
+	bottom: 50px;
+	left: 0px;
+}
+.fa-facebook{ 
+	border: 2px solid;
+	border-radius: 100%;
+	padding: 10px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+.fa-google-plus{
+	border: 2px solid;
+	border-radius: 100%;
+	padding: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.fa-twitter{
+	border: 2px solid;
+	border-radius: 100%;
+	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.fa-linkedin{
+	border: 2px solid;
+	border-radius: 100%;
+	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.fa-dribbble{
+	border: 2px solid;
+	border-radius: 100%;
+	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .fin{
 	position: relative;
